@@ -45,7 +45,7 @@
 				clientID: '1',
 				clientSecret: '1'
 			},
-			userRoute: '/user/profile'	// This is the address to your app's "user profile" API endpoint (expects JSON)
+			userRoute: 'http://auth.bangbang93.com/user/profile'	// This is the address to your app's "user profile" API endpoint (expects JSON)
 		}),
 		configOk = false,
 		OAuth = {}, passportOAuth, opts;
