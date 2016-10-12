@@ -31,7 +31,7 @@
 
 	var constants = Object.freeze({
 			type: 'oauth2',	// Either 'oauth' or 'oauth2'
-			name: 'nodebb',	// Something unique to your OAuth provider in lowercase, like "github", or "nodebb"
+			name: 'bangbang93auth',	// Something unique to your OAuth provider in lowercase, like "github", or "nodebb"
 			oauth: {
 				requestTokenURL: '',
 				accessTokenURL: '',
