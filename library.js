@@ -40,12 +40,12 @@
 				consumerSecret: ''
 			},
 			oauth2: {
-				authorizationURL: 'http://auth.bangbang93.com/user/login',
-				tokenURL: 'http://auth.bangbang93.com/user/token',
+				authorizationURL: 'https://auth.bangbang93.com/user/login',
+				tokenURL: 'https://auth.bangbang93.com/user/token',
 				clientID: '1',
 				clientSecret: '1'
 			},
-			userRoute: 'http://auth.bangbang93.com/user/profile'	// This is the address to your app's "user profile" API endpoint (expects JSON)
+			userRoute: 'https://auth.bangbang93.com/user/profile'	// This is the address to your app's "user profile" API endpoint (expects JSON)
 		}),
 		configOk = false,
 		OAuth = {}, passportOAuth, opts;
