@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-sso-oauth",
-  "version": "0.3.4",
+  "version": "0.4.0",
   "description": "NodeBB Generic OAuth SSO",
   "main": "library.js",
   "repository": {
@@ -28,7 +28,8 @@
   "readme": "",
   "readmeFilename": "README.md",
   "dependencies": {
-    "async": "^2",
+    "async": "^3.2.0",
+    "eslint": "^7.7.0",
     "passport-oauth": "~1.0.0"
   },
   "nbbpm": {
@@ -36,13 +37,11 @@
     "index": false
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.0.0",
-    "@commitlint/config-angular": "^7.1.2",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.8.0",
-    "husky": "^2.4.0",
-    "lint-staged": "^8.2.0"
+    "@commitlint/config-angular": "^8.3.4",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.8"
   },
   "husky": {
     "hooks": {
