@@ -158,6 +158,7 @@
         callbackURL: '/auth/' + constants.name + '/callback',
         icon       : 'fa-check-square',
         scope      : (constants.scope || '').split(','),
+        checkState : false,
       })
 
       callback(null, strategies)
